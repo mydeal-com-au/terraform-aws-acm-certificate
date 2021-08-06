@@ -10,12 +10,13 @@
 | Name | Version |
 |------|---------|
 | terraform | >= 0.13.0 |
+| aws | >= 2.7.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| aws | n/a |
+| aws | >= 2.7.0 |
 
 ## Inputs
 
