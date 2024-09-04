@@ -1,5 +1,6 @@
 variable "domain_names" {
   description = "Domain names for this certificate - the first is the main domain and others are subject alternative names"
+  type        = list(string)
 }
 
 variable "validation_method" {
