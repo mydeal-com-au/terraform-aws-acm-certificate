@@ -18,3 +18,9 @@ variable "create_validation_record" {
   type        = bool
   default     = true
 }
+
+variable "export" {
+  description = "Whether the certificate can be exported"
+  type = bool
+  default = false
+}
